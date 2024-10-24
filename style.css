@@ -121,13 +121,9 @@ canvas {
 #map {
     margin: 20px;
     display: block;
-    /* make sure a box shows up */
     height: 500px;
-    /* Required to let the map load in at all */
     width: 650px;
-    /* Map will be very small without this*/
     margin-bottom: 1rem;
-    /* Keep spacing below map to other boxes */
     /* border: 2px solid rgb(0, 0, 0); */
 }
 
