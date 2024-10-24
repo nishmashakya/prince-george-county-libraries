@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header></header>
+
+        <h1>
+            <span class="title">PRINCE GEORGE COUNTY LIBRARIES</span>
+        </h1>
+
+        <div class="container">
+
+            <!-- <h2>List of libraries</h2>
+            <div>
+                <ul id="items">
+                </ul>
+            </div> -->
+
+            <div class="first">
+                <!-- BAR CHART USING chart.js -->
+                <div class="box">
+                    <h2>Bar Chart</h2>
+                    <p>Number of Libraries by Zipcode</p>
+                    <div class="visual">
+                        <canvas id="chart1"></canvas>
+                    </div>
+                </div>
+
+
+                
+
+            </div>
+
+
+
+
+            <div class="second">
+                
+
+
+                <!-- PIE CHART USING chart.js -->
+                <div class="box">
+                    <h2>Pie Chart</h2>
+                    <p>Number of Libraries by Zipcode</p>
+                    <div class="visual">
+                        <canvas id="chart2"></canvas>
+                    </div>
+                </div>
+
+
+                <!-- BUBBLE CHART USING chart.js -->
+                <div class="box">
+                    <h2>Bubble Chart</h2>
+                    <p>Number of Libraries by Zipcode</p>
+                    <div class="visual">
+                        <canvas id="chart3"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="third">
+                
+
+
+                <!-- MAP using leaflet -->
+                <div class="box">
+                    <h2>Map of Libraries</h2>
+                    <div id="map"></div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <footer></footer>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <script src="charts.js"></script>
+
+    <!-- <script src="script.js"></script> -->
+
+    <script src="map.js"></script>
+
+</body>
+
+</html>
